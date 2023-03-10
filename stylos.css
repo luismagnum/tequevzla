@@ -112,7 +112,7 @@ h2{
 
 .sticky{
     position: sticky;
-    margin-left: 0;
+    top: 0;
 }
 
 .products{
@@ -269,6 +269,10 @@ span{
 
 .links a:hover{
     color:#40004e;
+}
+
+.deve{
+    color:#01beaa;
 }
 
 @media(max-width:991px){
