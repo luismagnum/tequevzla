@@ -94,6 +94,7 @@ img{
     font-family: 'Bebas Neue', cursive;
     margin-top: 200px;
     margin-bottom: 0;
+    animation: left-move 1s ease-in;
 }
 
 h2{
@@ -102,6 +103,7 @@ h2{
     margin: 0;
     display: inline-block;
     color: #f20442;
+    animation: right-move 1s ease-in;
 }
 
 .header-txt img{
@@ -358,9 +360,27 @@ span{
         flex-direction: column;
     }
 
+}
 
+@keyframes left-move{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 
-
-
+@keyframes right-move{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
