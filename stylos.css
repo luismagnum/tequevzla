@@ -42,7 +42,7 @@ img{
     animation: efecto 1.2s infinite;
 }
 
-.container-boton:hover{
+.what-boton:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
@@ -240,7 +240,7 @@ span{
 .about-txt p{
     font-size: 16px;
     color:#a45a93;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .tequeños{
@@ -377,7 +377,7 @@ span{
 
     .about img{
         width: 100%;
-        margin-left: 18px;
+        margin-left: 20px;
     }
 
     .about-img img{
