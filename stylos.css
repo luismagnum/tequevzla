@@ -35,7 +35,7 @@ img{
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 20px;
+    bottom: 25px;
     left: 25px;
     padding: 5px 10px;
     transition: ease 0.3s;
