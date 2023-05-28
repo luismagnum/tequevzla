@@ -144,7 +144,7 @@ h2{
     font-size: 6vw;
     margin: 0;
     display: inline-block;
-    color: #f20442;
+    color: yellow;
     animation: right-move 1s ease-in;
 }
 
