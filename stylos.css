@@ -63,9 +63,10 @@ img{
 }
 
 .header{
-    background: #00c6ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
     /*background: linear-gradient(
         90deg,
@@ -147,10 +148,18 @@ h2{
     animation: right-move 1s ease-in;
 }
 
+h5{
+    font-family: cursive;
+    font-size:xx-large;
+    color: yellow;
+    margin-bottom: 40px;
+}
+
 .header-txt img{
-    width: 550px;
+    width: 350px;
     margin-top: 0;
     margin-bottom: 80px;
+    border-radius: 20px;
 }
 
 .sticky{
