@@ -312,7 +312,7 @@ span{
 }
 
 .social-link a{
-    font-size: 20px;
+    font-size: 30px;
     color:#eeeff3;
     margin: 0 20px;
     display: block;
@@ -322,6 +322,11 @@ span{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+.social-link i:hover{
+    transform: scale(1.5);
+    color: #40004e;
 }
 
 .links a{
