@@ -63,7 +63,8 @@ img{
 }
 
 .header{
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/639704488/es/foto/bandera-de-venezuela.jpg?s=612x612&w=0&k=20&c=JVwi--ULkJ2_gv7BaBp0j4ctnwYiMwLyc8MXSal-V8o=");
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/1268258065/es/vector/globos-festivos-vectores-voladores-brillantes-con-globos-brillantes-para-el-campo-de.jpg?s=612x612&w=0&k=20&c=HgXwKQuVyMRV94Sp2sGrB9hcCSxdUnZZ5SnUQpelWPM=");
+    /*background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/639704488/es/foto/bandera-de-venezuela.jpg?s=612x612&w=0&k=20&c=JVwi--ULkJ2_gv7BaBp0j4ctnwYiMwLyc8MXSal-V8o=");*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
