@@ -63,7 +63,8 @@ img{
 }
 
 .header{
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/639704488/es/foto/bandera-de-venezuela.jpg?s=612x612&w=0&k=20&c=JVwi--ULkJ2_gv7BaBp0j4ctnwYiMwLyc8MXSal-V8o=");
+    /*background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/639704488/es/foto/bandera-de-venezuela.jpg?s=612x612&w=0&k=20&c=JVwi--ULkJ2_gv7BaBp0j4ctnwYiMwLyc8MXSal-V8o=");*/
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://t3.ftcdn.net/jpg/00/15/94/58/240_F_15945882_YnsRhYxdXIToBBDpih2WLQIBZ1KNt6BH.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
