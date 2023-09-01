@@ -64,7 +64,7 @@ img{
 
 .header{
     /*background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/639704488/es/foto/bandera-de-venezuela.jpg?s=612x612&w=0&k=20&c=JVwi--ULkJ2_gv7BaBp0j4ctnwYiMwLyc8MXSal-V8o=");*/
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://t3.ftcdn.net/jpg/00/15/94/58/240_F_15945882_YnsRhYxdXIToBBDpih2WLQIBZ1KNt6BH.jpg");
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/1442283898/es/foto/palitos-de-queso-de-primer-plano-para-el-desayuno.jpg?s=612x612&w=0&k=20&c=BWO6KJ0hrMfzR27C0MmQLIri1-k2ZML4mfLcSqHCewQ=");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -341,6 +341,16 @@ span{
 
 .deve{
     color:#01beaa;
+}
+
+.deve img{
+    margin: 5px;
+    margin-bottom: 0.1px;
+}
+
+.imagen i{
+    margin: 5px;
+    font-size: 25px;
 }
 
 @media(max-width:991px){
