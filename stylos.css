@@ -96,6 +96,7 @@ img{
     height: 120px;
 }
 
+
 .menu .navbar ul li{
     position: relative;
     float: left;
@@ -345,12 +346,18 @@ span{
 
 .deve img{
     margin: 5px;
-    margin-bottom: 0.1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 .imagen i{
+    color: #fff;
     margin: 5px;
     font-size: 25px;
+}
+
+.color{
+    color: #fff;
 }
 
 @media(max-width:991px){
