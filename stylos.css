@@ -64,7 +64,7 @@ img{
 
 .header{
     /*background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/639704488/es/foto/bandera-de-venezuela.jpg?s=612x612&w=0&k=20&c=JVwi--ULkJ2_gv7BaBp0j4ctnwYiMwLyc8MXSal-V8o=");*/
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/1442283898/es/foto/palitos-de-queso-de-primer-plano-para-el-desayuno.jpg?s=612x612&w=0&k=20&c=BWO6KJ0hrMfzR27C0MmQLIri1-k2ZML4mfLcSqHCewQ=");
+    background-image:url("https://img.freepik.com/vector-gratis/fondo-plano-dia-madre-espanol_23-2149363370.jpg?size=626&ext=jpg&ga=GA1.2.974543645.1689639421&semt=ais");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -358,6 +358,21 @@ span{
 
 .color{
     color: #fff;
+}
+
+.scroll{
+    position: fixed;
+    bottom: 2.2rem;
+    border-top: 2rem;
+    right: 3.2rem;
+}
+
+.scroll i{
+    font-size: 20px;
+    color:white;
+    background:teal;
+    padding: 10px;
+    border-radius: 1rem;
 }
 
 @media(max-width:991px){
