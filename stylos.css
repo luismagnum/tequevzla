@@ -161,6 +161,10 @@ h5{
     animation: left-move 1s ease-in;
 }
 
+.header-txt h5{
+    margin-top: 0.5em;
+}
+
 .header-txt img{
     width: 350px;
     margin-top: 0;
