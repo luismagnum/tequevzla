@@ -65,7 +65,7 @@ img{
 .header{
     /*background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/639704488/es/foto/bandera-de-venezuela.jpg?s=612x612&w=0&k=20&c=JVwi--ULkJ2_gv7BaBp0j4ctnwYiMwLyc8MXSal-V8o=");*/
     /*background-image:url("https://img.freepik.com/foto-gratis/palitos-queso-venezolano-tradicional_23-2149050055.jpg?size=626&ext=jpg&ga=GA1.2.974543645.1689639421&semt=ais");*/
-    background-image:url("https://media.istockphoto.com/id/1271241913/es/foto/galletas-de-hombre-de-jengibre-de-navidad-y-chocolate-caliente.jpg?s=612x612&w=0&k=20&c=gbx9d7D-Ur_-C86tHjQoVXUGPtWebsJYv9pU-nnrJtQ=");
+    background-image:url("https://img.freepik.com/vector-premium/feliz-ano-nuevo-2024-2024-concepto-celebracion-ano-nuevo-banner-tarjeta-felicitacion-plantilla-publicacion_324689-172.jpg?size=626&ext=jpg&ga=GA1.2.974543645.1689639421&semt=ais");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,6 +381,12 @@ span{
     border-radius: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+    .ocultar{
+        display: none; /* Oculta el h6 en pantallas más grandes */
+    }
+}
+
 @media(max-width:991px){
     .menu{
         padding: 30px;
@@ -397,6 +403,10 @@ span{
         right: 0;
         background-color: #7a0051;
         display: none;
+    }
+
+    .logo{
+        width: 20%;
     }
 
     .menu .navbar ul li{
@@ -418,6 +428,10 @@ span{
     .header-txt h1{
         font-size: 60px;
         line-height: 60px;
+    }
+
+    h6{
+        color:#f20442;
     }
 
     .header-txt img{
